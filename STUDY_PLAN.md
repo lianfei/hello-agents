@@ -56,23 +56,23 @@
 
 ### 第 1 周
 
-- [ ] **D1~D2｜概念框架**【P1｜重点｜★☆☆】
+- [x] **D1~D2｜概念框架**【P1｜重点｜★☆☆】
   - 动作：通读 [docs/chapter1/第一章 初识智能体.md](docs/chapter1/第一章%20初识智能体.md)，重点记录：①智能体定义 ②"AI 原生 Agent vs 软件工程类 Agent"的分类 ③Agent 的核心组成（感知-决策-行动）
   - 验收：不看资料，用 3 句话向别人解释"什么是 Agent、Agent 和 Chatbot 的本质区别"
 
-- [ ] **D3｜第一个 Agent + 发展史**【P1｜重点｜★☆☆】
+- [x] **D3｜第一个 Agent + 发展史**【P1｜重点｜★☆☆】
   - 动作：①跑通 [code/chapter1/FirstAgentTest.py](code/chapter1/FirstAgentTest.py)（先配置 API Key 环境变量）②读 [docs/chapter2/第二章 智能体发展史.md](docs/chapter2/第二章%20智能体发展史.md)
   - 验收：`FirstAgentTest.py` 输出正常回复；能按时间线说出符号主义 -> 连接主义 -> LLM 驱动智能体的 3 个关键转折点
 
-- [ ] **D4｜历史对比实验**【P2｜★☆☆】
+- [x] **D4｜历史对比实验**【P2｜★☆☆】
   - 动作：跑通 [code/chapter2/ELIZA.py](code/chapter2/ELIZA.py)，用同一句话（如"我最近很焦虑"）分别问 ELIZA 和 Day1 的 LLM Agent
   - 产出：一段对比笔记（ELIZA 靠规则模板，LLM Agent 靠概率生成），存入个人笔记
 
-- [ ] **D5~D6｜语言模型基础**【P1｜★★☆】
+- [x] **D5~D6｜语言模型基础**【P1｜★★☆】
   - 动作：读 [docs/chapter3/第三章 大语言模型基础.md](docs/chapter3/第三章%20大语言模型基础.md)；依次跑 [code/chapter3/](code/chapter3/) 下 [BPE.py](code/chapter3/BPE.py)、[N_gram.py](code/chapter3/N_gram.py)、[Word_Embedding.py](code/chapter3/Word_Embedding.py)，观察各自输入输出
   - 验收：能回答"为什么模型按 token 计费而不是按字？"、"N-gram 和神经语言模型的区别？"
 
-- [ ] **D7｜Transformer 与收尾**【P2｜难点｜★★★】
+- [x] **D7｜Transformer 与收尾**【P2｜难点｜★★★】
   - 动作：跑 [Transformer.py](code/chapter3/Transformer.py)；手画一张 Self-Attention 数据流草图（Q/K/V -> 打分 -> 加权求和）
   - 验收：草图能在 30 秒内讲清楚 Attention "查询-匹配-聚合"的三步
   - 💡 数学推导是本书最难的部分，但**只需理解直觉，不必推导**，卡住就先跳过
